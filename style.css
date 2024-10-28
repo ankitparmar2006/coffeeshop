@@ -79,7 +79,7 @@ font-size: 80px;
   }
 
     
-  #home .hometext .btn {
+  .btn {
 
 background-color: orangered;
 width: 140px;
@@ -90,7 +90,7 @@ font-weight: bolder;
 
   }
 
-  #home .hometext .btn:hover {
+.btn:hover {
     background-color: transparent;
     color: white;
     background-color: black;
@@ -99,5 +99,40 @@ font-weight: bolder;
 
   /* about cording start from here */
   #about .about-text {
-    padding-top: 20%;
+    padding-top: 15%;
+    padding-left: 40px;
   }
+
+  #about .about-text h1 {
+    font-size: 40px;
+  }
+
+  
+  #about .about-text h4 {
+    font-size: 24px;
+  }
+
+
+    
+  #about .btn {
+  
+    margin-left: 140px;
+  }
+
+  .about-image {
+    width: 42%;
+    height: 70%;
+    border: 2px solid red;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 550px;
+    background-image: url(./images/about.avif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+ 
+  }
+
+  /* about cording end here  */
+
+  

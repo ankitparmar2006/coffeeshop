@@ -135,4 +135,95 @@ font-weight: bolder;
 
   /* about cording end here  */
 
+  /* <!--================== coffes start from here================================ --> */
+
+  #coffees {
+    width: 100%;
+    height: 100vh;
+    padding-top: 90px;
+    }
+
+  #coffees .text-coffes {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  #coffees .box-top {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    color: white;
+    font-weight: bolder;
+    margin-top: 50px;
   
+  }
+
+  #coffees .box-top .box-4 {
+    width: 200px;
+    height: 350px;
+    border: 4px solid orangered;
+    display: grid;
+justify-items: center;
+background-color:  #242c2f;;
+text-align: center;
+  }
+
+  
+  #coffees .box-top .box-4 .box-5 {
+width: 180px;
+height: 180px;
+border: 3px solid white;
+margin: 7px;
+margin-top: 8px;
+
+
+
+}
+
+ 
+#coffees .box-top .box-4 .box-5 img {
+  width: 100%;
+  height: 177px ;
+
+}
+
+
+        
+/* <!--================== blog start from here================================ --> */
+#no-work {
+  padding-top: 90px;
+  text-align: center;
+  
+  
+}
+#no-work h1 {
+  font-size: 40px;
+}
+
+.blog-main {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+
+}
+
+.blog-main .blog-top2 {
+  width: 480px;
+  height: 500px;
+  border: 2px solid orangered;
+
+
+ 
+}
+/* 
+#no-work .blog-main .blog-top2 .blog-img{
+  width:100%;
+  height:60%;
+  border: 2px solid orangered;
+} */
+
+#no-work .blog-main .blog-top2 .blog-img img {
+  background-size: cover;
+  width: 100%;
+}

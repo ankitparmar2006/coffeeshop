@@ -10,6 +10,7 @@
   
   #navbar {
     position: fixed;
+    z-index: 999;
     
     width: 100%;
   background-image: url(./images/nav.jpg);
@@ -356,8 +357,6 @@ border: none;
   
  
 }
-
-
 
 
 

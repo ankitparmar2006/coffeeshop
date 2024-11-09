@@ -245,7 +245,19 @@
     padding-top: 90px;
     text-align: center;
     
-    .btn9 {
+
+    h1 {
+        font-size: 40px;
+      }
+      
+    
+.blog-main {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    
+    .btn6 {
     
       background-color: red;
       width: 140px;
@@ -261,17 +273,6 @@
           background-color: black;
         
         }
-
-    h1 {
-        font-size: 40px;
-      }
-      
-    
-.blog-main {
-    padding-top: 50px;
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-evenly;
 
     .blog-top2 {
         width: 480px;
@@ -391,4 +392,77 @@
         }
       }
   }
+
   
+//  responsive work start from here ==============
+
+
+
+@media (max-width:450px) {
+
+  // about cording start frome here 
+  
+  #about {
+    .about-image{
+      margin-left:90px;
+      width: 60%;
+      height: 30%;
+      margin-top: 160px;
+    }
+    .about-text {
+      h1 {
+        padding-left: 30px;
+      }
+      p {
+        margin-top: 150px;
+      }
+      h4 {
+        padding-left: 60px;
+      }
+    
+    } 
+
+  }
+  // about cording end here
+  
+  // coffees responsive work start here
+  #coffees {
+    h1 {
+      font-size: 35px;
+    }
+    .box-top {
+    
+      grid-template-columns: auto auto;
+    } 
+  
+  }
+  
+  // coffees responsive work end here
+
+  
+/* our blog responsive */
+  
+#no-work {
+  
+  
+  margin-top: 399px;
+  
+.blog-main {
+
+  grid-template-columns: auto ;
+  .blog-top2 {
+    width: 80%;
+    height: 95%;
+    margin-left: 40px;
+    
+   
+  }
+  
+
+
+}
+
+  
+}
+
+}

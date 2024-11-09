@@ -170,19 +170,6 @@
   padding-top: 90px;
   text-align: center;
 }
-#no-work .btn9 {
-  background-color: red;
-  width: 140px;
-  height: 45px;
-  border-radius: 20px;
-  font-size: 18px;
-  font-weight: bolder;
-}
-#no-work :hover {
-  background-color: transparent;
-  color: white;
-  background-color: black;
-}
 #no-work h1 {
   font-size: 40px;
 }
@@ -191,6 +178,19 @@
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-evenly;
+}
+#no-work .blog-main .btn6 {
+  background-color: red;
+  width: 140px;
+  height: 45px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+#no-work .blog-main :hover {
+  background-color: transparent;
+  color: white;
+  background-color: black;
 }
 #no-work .blog-main .blog-top2 {
   width: 480px;
@@ -267,4 +267,40 @@
   background-color: orangered;
   border: none;
   color: yellow;
+}
+
+@media (max-width: 450px) {
+  #about .about-image {
+    margin-left: 90px;
+    width: 60%;
+    height: 30%;
+    margin-top: 160px;
+  }
+  #about .about-text h1 {
+    padding-left: 30px;
+  }
+  #about .about-text p {
+    margin-top: 150px;
+  }
+  #about .about-text h4 {
+    padding-left: 60px;
+  }
+  #coffees h1 {
+    font-size: 35px;
+  }
+  #coffees .box-top {
+    grid-template-columns: auto auto;
+  }
+  /* our blog responsive */
+  #no-work {
+    margin-top: 399px;
+  }
+  #no-work .blog-main {
+    grid-template-columns: auto;
+  }
+  #no-work .blog-main .blog-top2 {
+    width: 80%;
+    height: 95%;
+    margin-left: 40px;
+  }
 }/*# sourceMappingURL=main.css.map */

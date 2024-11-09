@@ -76,8 +76,8 @@
 }
 
 /* about cording start from here */
-#about .btn {
-  margin-left: 140px;
+#about {
+  height: 100vh;
 }
 #about .about-text {
   padding-top: 15%;
@@ -101,6 +101,20 @@
   background-position: center;
   border-radius: 20px;
 }
+#about .btn {
+  background-color: orangered;
+  width: 140px;
+  height: 45px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 150px;
+}
+#about .btn:hover {
+  background-color: transparent;
+  color: white;
+  background-color: black;
+}
 
 /* about cording end here  */
 #coffees {
@@ -119,6 +133,20 @@
   color: white;
   font-weight: bolder;
   margin-top: 50px;
+}
+#coffees .box-top .btn9 {
+  background-color: orangered;
+  width: 140px;
+  height: 45px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 0px;
+}
+#coffees .box-top .btn9:hover {
+  background-color: transparent;
+  color: white;
+  background-color: black;
 }
 #coffees .box-top .box-4 {
   width: 200px;
@@ -142,6 +170,19 @@
   padding-top: 90px;
   text-align: center;
 }
+#no-work .btn9 {
+  background-color: red;
+  width: 140px;
+  height: 45px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+#no-work :hover {
+  background-color: transparent;
+  color: white;
+  background-color: black;
+}
 #no-work h1 {
   font-size: 40px;
 }
@@ -156,20 +197,7 @@
   height: 500px;
   border: 2px solid orangered;
 }
-#no-work .blog-main .blog-top2 .blog-img .btn3 {
-  background-color: orangered;
-  width: 140px;
-  height: 45px;
-  border-radius: 20px;
-  font-size: 18px;
-  font-weight: bolder;
-}
-#no-work .blog-main .blog-top2 .blog-img .btn3 :hover {
-  background-color: transparent;
-  color: white;
-  background-color: black;
-}
-#no-work .blog-main .blog-top2 .blog-img img {
+#no-work .blog-main .blog-top2 img {
   background-size: cover;
   width: 100%;
 }
@@ -183,6 +211,19 @@
 }
 #contact .contact-2 .contact-input h1 {
   font-size: 50px;
+}
+#contact .contact-2 .contact-input .btn9 {
+  background-color: orangered;
+  width: 140px;
+  height: 45px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+#contact .contact-2 .contact-input :hover {
+  background-color: transparent;
+  color: white;
+  background-color: black;
 }
 #contact .contact-2 .contact-input .submit {
   color: yellow;
@@ -209,7 +250,20 @@
 #main-footer .icons {
   font-size: 50px;
 }
-#main-footer .login .btn .submit {
+#main-footer .login .btn7 {
+  background-color: orangered;
+  width: 140px;
+  height: 45px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+#main-footer .login :hover {
+  background-color: transparent;
+  color: white;
+  background-color: black;
+}
+#main-footer .login .btn7 .submit {
   background-color: orangered;
   border: none;
   color: yellow;

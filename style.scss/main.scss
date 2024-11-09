@@ -111,11 +111,9 @@
   
   #about {
 
-    .btn {
-  
-        margin-left: 140px;
-      }
 
+    height: 100vh;
+  
     .about-text {
         padding-top: 15%;
         padding-left: 40px;
@@ -128,6 +126,7 @@
             font-size: 24px;
           }
         
+      
     
       }
 
@@ -144,14 +143,28 @@
     background-size: cover;
     background-position: center;
     border-radius: 20px;
+
  
   }
-
       
-
-
-
-  }
+  .btn {
+    
+    background-color: orangered;
+    width: 140px;
+    height: 45px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 150px;
+    
+      }
+      .btn:hover {
+        background-color: transparent;
+        color: white;
+        background-color: black;
+      
+      }
+}
 
   
   /* about cording end here  */ 
@@ -174,6 +187,24 @@
         color: white;
         font-weight: bolder;
         margin-top: 50px;
+        
+  .btn9 {
+    
+    background-color: orangered;
+    width: 140px;
+    height: 45px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 0px;
+    
+      }
+      .btn9:hover {
+        background-color: transparent;
+        color: white;
+        background-color: black;
+      
+      }
 
         .box-4 {
             width: 200px;
@@ -213,6 +244,23 @@
 #no-work {
     padding-top: 90px;
     text-align: center;
+    
+    .btn9 {
+    
+      background-color: red;
+      width: 140px;
+      height: 45px;
+      border-radius: 20px;
+      font-size: 18px;
+      font-weight: bolder;
+      
+        }
+        :hover {
+          background-color: transparent;
+          color: white;
+          background-color: black;
+        
+        }
 
     h1 {
         font-size: 40px;
@@ -229,31 +277,7 @@
         width: 480px;
         height: 500px;
         border: 2px solid orangered;
-
-        .blog-img {
-
-
-            .btn3 {
-               
-        background-color: orangered;
-        width: 140px;
-        height: 45px;
-        border-radius: 20px;
-        font-size: 18px;
-        font-weight: bolder;
-    
-        .btn3:hover {
-            background-color: transparent;
-            color: white;
-            background-color: black;
-          
-          }
-            }
-
-
-
-
-            img {
+         img {
                 background-size: cover;
                 width: 100%;
                
@@ -269,8 +293,7 @@
   
   }
     
-  }
-
+  
         
 /* <!--================== conatct section start from here================================ --> */
    
@@ -286,6 +309,22 @@
                 font-size: 50px;
                   
                 }
+                .btn9 {
+    
+                  background-color: orangered;
+                  width: 140px;
+                  height: 45px;
+                  border-radius: 20px;
+                  font-size: 18px;
+                  font-weight: bolder;
+                  
+                    }
+                    :hover {
+                      background-color: transparent;
+                      color: white;
+                      background-color: black;
+                    
+                    }
                 .submit {
                     color: yellow;
                     background-color: orangered;
@@ -326,7 +365,24 @@
       }
 
       .login {
-        .btn {
+
+        .btn7 {
+    
+          background-color: orangered;
+          width: 140px;
+          height: 45px;
+          border-radius: 20px;
+          font-size: 18px;
+          font-weight: bolder;
+          
+            }
+            :hover {
+              background-color: transparent;
+              color: white;
+              background-color: black;
+            
+            }
+        .btn7 {
             .submit {
                 background-color: orangered;
                 border: none;

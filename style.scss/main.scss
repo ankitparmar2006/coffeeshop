@@ -30,7 +30,6 @@
 
         ul {
             display: flex;
-            /* /* margin-left: 60%; */
             gap: 20px;
             list-style: none;
           }
@@ -40,6 +39,7 @@
             :hover {
                 background-color: orangered;
                 cursor: grab; 
+                font-size: 16.5px;
 
                 a {
                     color: white;
@@ -60,6 +60,8 @@
       }
 
     }
+    
+  /* ========================         navbar start from here     ======================= */
           
   /* <!--================== main section start from here================================ --> */
 
@@ -106,7 +108,9 @@
   }
 
   
-  /* about cording start from here */
+  /* <!--================== main section start from here ============================= --> */
+  
+  /*  ===================== about cording start from  =====================   */
   
   
   #about {
@@ -146,6 +150,8 @@
 
  
   }
+
+  //  ===================== this is button btn cording   =====================
       
   .btn {
     
@@ -167,9 +173,9 @@
 }
 
   
-  /* about cording end here  */ 
+  /*  ===================== about cording end here   =====================*/ 
 
-//   <!--================== coffes start from here================================ --> 
+//   <!--================== coffes start from here  ============================== --> 
 
   #coffees {
     width: 100%;
@@ -238,6 +244,7 @@
     }
 
     
+//   <!--================== coffes start from here  ============================== --> 
 
         
 /* <!--================== blog start from here================================ --> */
@@ -295,6 +302,7 @@
   }
     
   
+/* <!--================== blog start from here================================ --> */
         
 /* <!--================== conatct section start from here================================ --> */
    
@@ -339,9 +347,10 @@
       
 }
 
+/* <!--================== conatct section start from here================================ --> */
 
 
-/* <!-- footter work start from here  --> */
+/* <!-- ========================= footter work start from here ========================= --> */
 
 #main-footer {
     width: 100%;
@@ -394,13 +403,18 @@
   }
 
   
+/* <!-- ========================= footter work start from here ========================= --> */
+
+
+
+  
 //  responsive work start from here ==============
 
 
 
 @media (max-width:450px) {
 
-  // about cording start frome here 
+  //=======================  about cording start frome here =======================
   
   #about {
     .about-image{
@@ -423,9 +437,9 @@
     } 
 
   }
-  // about cording end here
+  // ======================= about cording end here =======================
   
-  // coffees responsive work start here
+  //=======================  coffees responsive work start here=======================
   #coffees {
     h1 {
       font-size: 35px;
@@ -437,10 +451,10 @@
   
   }
   
-  // coffees responsive work end here
+  // ======================= coffees responsive work end here  =======================
 
   
-/* our blog responsive */
+/*=======================  our blog responsive  ======================= */
   
 #no-work {
   
@@ -466,3 +480,5 @@
 }
 
 }
+
+// our responsive work adone complete here

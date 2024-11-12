@@ -96,6 +96,23 @@
             background-color: black;
           
           }
+          .btn-2 {
+    
+            background-color: orangered;
+            width: 140px;
+            height: 45px;
+            border-radius: 20px;
+            font-size: 18px;
+            font-weight: bolder;
+            
+              }
+              .btn-2:hover {
+                background-color: transparent;
+                color: white;
+                background-color: rgb(122, 236, 16);
+              
+              }
+
           .coffe-shop  {
                     font-size: 80px;
                     
@@ -310,14 +327,16 @@
 #contact {
     .contact-2 {
         padding-top: 120px;
+        h1 {
+          font-size: 50px;
+          margin-left: 400px;
+            
+          }
 
         .contact-input {
             text-align: center;
 
-            h1 {
-                font-size: 50px;
-                  
-                }
+           
                 .btn9 {
     
                   background-color: orangered;
@@ -338,6 +357,13 @@
                     color: yellow;
                     background-color: orangered;
                     border: none;
+                    }
+                    .submit:hover {
+                      background-color: transparent;
+                      color: white;
+                      background-color: black;
+                      border: none;
+                    
                     }
                 
             
@@ -397,6 +423,13 @@
                 background-color: orangered;
                 border: none;
                 color: yellow;
+              }
+              .submit:hover {
+                background-color: transparent;
+                color: white;
+                background-color: black;
+                border: none;
+              
               }
         }
       }
@@ -479,6 +512,17 @@
   
 }
 
+// contact 
+
+#contact {
+  .contact-2 {
+      h1 {
+        margin-left: 60px;
+          
+      }
+    }
+
+}
 }
 
 // our responsive work adone complete here

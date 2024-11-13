@@ -1,3 +1,15 @@
+
+
+$primary-color:orangered;
+
+// mixin property
+
+@mixin grid {
+  display: grid;
+
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -37,7 +49,7 @@
           li {
 
             :hover {
-                background-color: orangered;
+                background-color: $primary-color;
                 cursor: grab; 
                 font-size: 16.5px;
 
@@ -82,7 +94,7 @@
     
     .btn {
     
-        background-color: orangered;
+        background-color: $primary-color;
         width: 140px;
         height: 45px;
         border-radius: 20px;
@@ -98,7 +110,7 @@
           }
           .btn-2 {
     
-            background-color: orangered;
+            background-color:$primary-color;
             width: 140px;
             height: 45px;
             border-radius: 20px;
@@ -172,7 +184,7 @@
       
   .btn {
     
-    background-color: orangered;
+    background-color: $primary-color;
     width: 140px;
     height: 45px;
     border-radius: 20px;
@@ -204,7 +216,7 @@
         font-size: 35px;
       }
       .box-top {
-        display: grid;
+      @include grid();
         grid-template-columns: auto auto auto auto;
         justify-content: space-around;
         color: white;
@@ -277,7 +289,7 @@
     
 .blog-main {
     padding-top: 50px;
-    display: grid;
+    @include grid();
     grid-template-columns: auto auto;
     justify-content: space-evenly;
     
@@ -339,7 +351,7 @@
            
                 .btn9 {
     
-                  background-color: orangered;
+                  background-color:$primary-color;
                   width: 140px;
                   height: 45px;
                   border-radius: 20px;
@@ -355,7 +367,7 @@
                     }
                 .submit {
                     color: yellow;
-                    background-color: orangered;
+                    background-color:$primary-color;
                     border: none;
                     }
                     .submit:hover {
@@ -388,7 +400,7 @@
     color: white;
 
     .copyright {
-        background-color: orangered;
+        background-color:$primary-color;
         height: 60px;
         margin-top: 9px;
         padding-top: 16px;
@@ -404,7 +416,7 @@
 
         .btn7 {
     
-          background-color: orangered;
+          background-color:$primary-color;
           width: 140px;
           height: 45px;
           border-radius: 20px;
@@ -420,7 +432,7 @@
             }
         .btn7 {
             .submit {
-                background-color: orangered;
+                background-color: $primary-color;
                 border: none;
                 color: yellow;
               }

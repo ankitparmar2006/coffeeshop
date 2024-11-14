@@ -300,7 +300,35 @@
 }
 
 /* <!-- ========================= footter work start from here ========================= --> */
+#bar-ss {
+  display: none;
+}
+
+.lab {
+  display: none;
+}
+
 @media (max-width: 450px) {
+  /* navbar cording start from here   */
+  #navbar nav ul {
+    display: none;
+  }
+  #navbar nav ul li {
+    padding: 5px;
+  }
+  .lab {
+    position: absolute;
+    z-index: 99999999;
+    color: #ccc;
+    display: block;
+    left: 380px;
+  }
+  #bar-ss:checked ~ #navbar nav ul {
+    display: block;
+    position: absolute;
+    right: 30px;
+    background-color: black;
+  }
   #about .about-image {
     margin-left: 90px;
     width: 60%;
